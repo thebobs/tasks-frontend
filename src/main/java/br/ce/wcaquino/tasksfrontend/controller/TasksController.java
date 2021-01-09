@@ -73,7 +73,9 @@ public class TasksController {
 		return "index";
 	}
 
-	
+/*teste
+ * 	
+ */
 	@SuppressWarnings("unchecked")
 	private List<Todo> getTodos() {
 		RestTemplate restTemplate = new RestTemplate();
